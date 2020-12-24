@@ -1,0 +1,12 @@
+# api server
+server:
+  address: 127.0.0.1 #0.0.0.1
+  port: 8080
+# spring boot
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://root:3XMouse2032@3xmouse.wlyk8.mongodb.net/<dbname>?retryWrites=true&w=majority
+      username: root
+      password: 3XMouse2032
+      database: test
